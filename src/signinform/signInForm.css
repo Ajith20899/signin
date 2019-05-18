@@ -1,0 +1,98 @@
+.SignIn{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 981px;
+}
+.SignInFormImage {
+    display: grid;
+    background-image: url("image.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.SignInFormMainPageContent{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 40%;
+}
+h2{
+    color: #7dd1f8;
+    text-align: center;
+    position: relative;
+    top: -70px;
+}
+
+.signInFormInsideDivision {
+    display: grid;
+}
+.signInUserNameDiv {
+    color: rgb(134, 131, 131);
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-row-gap: 5px;
+    padding: 0px 20px 10px 0px;
+}
+
+.signInUserName {
+    color: rgb(134, 131, 131);
+    border: none;
+    outline: none;
+}
+.signInPasswordDiv {
+    display: grid;
+    color: rgb(134, 131, 131);
+    grid-template-columns: 10% 90%;
+    grid-row-gap: 5px;
+    padding: 20px 20px 10px 0px;
+}
+.signInPassword {
+    color: rgb(134, 131, 131);
+    border: none;
+    outline: none;
+}
+form .signInVerification {
+    border: none;
+    outline: none;
+    grid-gap: 30px;
+}
+.signInVerifyDiv {
+    display: grid;
+    grid-template-columns: 70% 30%;
+   
+    padding: 20px 20px 10px 35px;
+
+}
+.verify{
+    padding: 5px;
+    outline: none;
+    text-align: center;
+    border: 2px solid gray;
+    opacity: 0.7;
+}
+.signInFormEndProcess{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-gap : 30px; 
+}
+
+.loginButton{
+    display: grid;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    background: #7dd1f8;
+    color: rgb(247, 247, 247); 
+    padding: 10px 60px 10px 60px;
+    outline: none;
+    font-weight: 1000; 
+    margin: 20% 0 0 0 ;
+}
+span{
+    text-align: center;
+    color:rgb(134, 131, 131) ;
+    font-size: 15px;
+}
